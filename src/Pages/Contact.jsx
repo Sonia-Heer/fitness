@@ -17,7 +17,7 @@ function Login() {
               We are here for help you! To Shape Your Body.
             </h2>
             <p className="text-[16px] w-[95%] text-[#646464] font-medium my-[40px]">
-              At Gymate, we are dedicated to helping you achieve the body of
+              At Fitness, we are dedicated to helping you achieve the body of
               your dreams. Our expert trainers and nutritionists will work with
               you to create a personalized fitness and nutrition plan that helps
               you reach your specific goals.
@@ -48,7 +48,7 @@ function Login() {
                 <span className="bg-[#F28C28] w-[50px] h-[4px] absolute top-[33px]"></span>
                 <div className="text-[15px] font-medium text-[#646464]">
                   <p>+800-123-4567</p>
-                  <p>&nbsp; gymat@gymail.com</p>
+                  <p>&nbsp; fitness@fitness.com</p>
                 </div>
               </div>
               {/*  */}

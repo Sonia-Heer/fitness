@@ -45,7 +45,7 @@
 //             </label>
 //             <input
 //               className="text-[1.7rem] px-8 py-4 mb-10 w-full outline-[#ff0336] "
-//               placeholder="gymate@gymail.com"
+//               placeholder="fitness@fitness.com"
 //               type="email"
 //               onChange={(e) => setEmail(e.target.value)}
 //             ></input>
