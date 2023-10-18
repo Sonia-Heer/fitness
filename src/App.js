@@ -1,24 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import Contact from "./Pages/Contact";
+import Home from "./Pages/Home";
+// import Login from "./Pages/Login";
+// import SignUp from "./Pages/SignUp";
+import Navbar from "./Components/Nav/Navbar";
+
+import { Route, Routes } from "react-router-dom";
+
+import Classes from "./Pages/Classes";
+import Price from "./Pages/Price";
+import Blog from "./Pages/Blog";
+// import Schedule from "./Pages/Schedule/Schedule";
+// import Monday from "./Pages/Schedule/Monday";
+// import Tuesday from "./Pages/Schedule/Tuesday";
+// import Wednesday from "./Pages/Schedule/Wednesday";
+// import Thursday from "./Pages/Schedule/Thursday";
+// import Friday from "./Pages/Schedule/Friday";
+// import Saturday from "./Pages/Schedule/Saturday";
+// import Sunday from "./Pages/Schedule/Sunday";
+import About from "./Pages/About";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="contact" element={<Contact />} />
+          {/* <Route path="login" element={<Login />} /> */}
+          {/* <Route path="signup" element={<SignUp />} /> */}
+          <Route path="classes" element={<Classes />} />
+          <Route path="pricing" element={<Price />} />
+          <Route path="blog" element={<Blog />} />
+          <Route path="about" element={<About />} />
+
+          {/* <Route path="schedule" element={<Schedule />}>
+            <Route path="monday" element={<Monday />} />
+            <Route path="tuesday" element={<Tuesday />} />
+            <Route path="wednesday" element={<Wednesday />} />
+            <Route path="thursday" element={<Thursday />} />
+            <Route path="friday" element={<Friday />} />
+            <Route path="saturday" element={<Saturday />} />
+            <Route path="sunday" element={<Sunday />} />
+          </Route> */}
+        </Routes>
+      
+    </>
   );
 }
 
