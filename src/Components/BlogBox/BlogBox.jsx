@@ -11,11 +11,7 @@ function BlogBox({ img, title }) {
         </p>
         <h2 className="text-[3rem] font-bold mb-6">{title}</h2>
         <p className="font-medium text-[16px] text-[#646464] mb-24">
-          Authoritatively disseminate multimedia based total linkage through
-          market-driven methodolContinually transform integrated results
-          vis-a-vis multidisciplinary manufacture Appropriately foster
-          fullresearched innovation rather than backend supply. when an unknown
-          printer took a galley.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum officiis culpa veniam non quam accusantium necessitatibus, eaque quia tenetur voluptas quos, consequatur cumque ipsa, dolorem nemo fugit magni repellendus? Commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic doloremque perferendis accusamus veritatis eius vel amet omnis iste molestias esse, debitis illum nemo, autem dignissimos. Similique nobis at sint. Eius?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, esse. Placeat debitis beatae, voluptate maiores ratione aliquid nam doloribus sunt iste numquam tempora asperiores. Aliquam molestiae consequatur odit porro obcaecati!
         </p>
         <MainButton
           color={`!text-white`}
