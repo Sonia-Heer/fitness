@@ -9,14 +9,14 @@ import { Route, Routes } from "react-router-dom";
 import Classes from "./Pages/Classes";
 import Price from "./Pages/Price";
 import Blog from "./Pages/Blog";
-// import Schedule from "./Pages/Schedule/Schedule";
-// import Monday from "./Pages/Schedule/Monday";
-// import Tuesday from "./Pages/Schedule/Tuesday";
-// import Wednesday from "./Pages/Schedule/Wednesday";
-// import Thursday from "./Pages/Schedule/Thursday";
-// import Friday from "./Pages/Schedule/Friday";
-// import Saturday from "./Pages/Schedule/Saturday";
-// import Sunday from "./Pages/Schedule/Sunday";
+import Schedule from "./Pages/Schedule/Schedule";
+import Monday from "./Pages/Schedule/Monday";
+import Tuesday from "./Pages/Schedule/Tuesday";
+import Wednesday from "./Pages/Schedule/Wednesday";
+import Thursday from "./Pages/Schedule/Thursday";
+import Friday from "./Pages/Schedule/Friday";
+import Saturday from "./Pages/Schedule/Saturday";
+import Sunday from "./Pages/Schedule/Sunday";
 import About from "./Pages/About";
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
           <Route path="blog" element={<Blog />} />
           <Route path="about" element={<About />} />
 
-          {/* <Route path="schedule" element={<Schedule />}>
+          <Route path="schedule" element={<Schedule />}>
             <Route path="monday" element={<Monday />} />
             <Route path="tuesday" element={<Tuesday />} />
             <Route path="wednesday" element={<Wednesday />} />
@@ -42,7 +42,7 @@ function App() {
             <Route path="friday" element={<Friday />} />
             <Route path="saturday" element={<Saturday />} />
             <Route path="sunday" element={<Sunday />} />
-          </Route> */}
+          </Route>
         </Routes>
       
     </>

@@ -21,19 +21,19 @@ function Footer() {
               <div className="flex gap-7 text-[18px] text-[#646464] min540:justify-center">
                 <i
                   style={{ transition: "all 0.3s" }}
-                  className="fa-brands fa-facebook-f bg-[#efefef] p-4 rounded-full px-[14px] hover:bg-[#ff0366] hover:text-white"
+                  className="fa-brands fa-facebook-f bg-[#efefef] p-4 rounded-full px-[14px] hover:bg-[#F28C28] hover:text-white"
                 ><BsFacebook/></i>
                 <i
                   style={{ transition: "all 0.3s" }}
-                  className="fa-brands fa-twitter bg-[#efefef] p-4 rounded-full hover:bg-[#ff0366] hover:text-white"
+                  className="fa-brands fa-twitter bg-[#efefef] p-4 rounded-full hover:bg-[#F28C28] hover:text-white"
                 ><BsTwitter/></i>
                 <i
                   style={{ transition: "all 0.3s" }}
-                  className="fa-brands bg-[#efefef] p-4 rounded-full px-[14px] hover:bg-[#ff0366] hover:text-white"
+                  className="fa-brands bg-[#efefef] p-4 rounded-full px-[14px] hover:bg-[#F28C28] hover:text-white"
                 ><AiFillInstagram/></i>
                 <i
                   style={{ transition: "all 0.3s" }}
-                  className="fa-brands fa-youtube bg-[#efefef] p-4 rounded-full hover:bg-[#ff0366] hover:text-white"
+                  className="fa-brands fa-youtube bg-[#efefef] p-4 rounded-full hover:bg-[#F28C28] hover:text-white"
                 ><BsYoutube/></i>
               </div>
               <p className="text-[16px] font-medium text-[#646464]">
@@ -49,19 +49,19 @@ function Footer() {
 
               <span className="top-[33px] absolute w-[7rem] h-[4px] bg-[#F28C28]"></span>
 
-              <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
+              <p className="text-[16px] hover:text-[#F28C28] cursor-pointer text-[#646464] font-medium hover:font-bold">
                 Fitness Classes
               </p>
-              <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
+              <p className="text-[16px] hover:text-[#F28C28] cursor-pointer text-[#646464] font-medium hover:font-bold">
                 Aerobics Classes
               </p>
-              <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
+              <p className="text-[16px] hover:text-[#F28C28] cursor-pointer text-[#646464] font-medium hover:font-bold">
                 Power Yoga
               </p>
-              <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
+              <p className="text-[16px] hover:text-[#F28C28] cursor-pointer text-[#646464] font-medium hover:font-bold">
                 Learn Machines
               </p>
-              <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
+              <p className="text-[16px] hover:text-[#F28C28] cursor-pointer text-[#646464] font-medium hover:font-bold">
                 Full-body Strength
               </p>
             </div>
